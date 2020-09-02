@@ -1,4 +1,4 @@
-var name = prompt("hello... welcome to my Drum Kit... \n Enter your name.. ");
+var name = prompt("hello... welcome to my Drum Kit... \nEnter your name..\nNOTE :: USE_EARPHONES for better experience");
 
 var txt = name + " its Your turn to play music";
 document.getElementById("getName").innerHTML = txt;
