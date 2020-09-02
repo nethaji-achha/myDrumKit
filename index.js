@@ -1,4 +1,4 @@
-var name = prompt("hello... welcome to my Drum Kit... \n Enter your name..");
+var name = prompt("hello... welcome to my Drum Kit... \n Enter your name.. ");
 
 var txt = name + " its Your turn to play music";
 document.getElementById("getName").innerHTML = txt;
@@ -22,6 +22,7 @@ document.addEventListener("keypress", function (event){
     
     getSound(event.key);
     buttonAnimation(event.key);
+
 });
 
 function getSound(key)
@@ -62,10 +63,7 @@ function getSound(key)
     }
 }
 
-
-
 // for animation
-
 function buttonAnimation(currentKey){
     var activeButton = document.querySelector("." + currentKey);
     activeButton.classList.add("pressed");
